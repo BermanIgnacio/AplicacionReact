@@ -1,0 +1,14 @@
+.formBox{
+  width: 1200px;
+  height: 400px;
+  background-color: #282c34;
+  align-items: center;
+}
+
+.formPage{
+  background-color: #282c34;
+}
+
+.rowSpace{
+  margin-bottom: 25px;
+}

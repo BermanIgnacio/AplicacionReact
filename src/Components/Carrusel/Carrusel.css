@@ -1,0 +1,16 @@
+.carruselBox{
+  width: 500px;
+  max-width: 500px;
+}
+
+.carruselBox  .col-lg-2{
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.carousel{
+  position: relative;
+  height: 380px;
+}

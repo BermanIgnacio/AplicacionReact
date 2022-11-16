@@ -1,38 +1,241 @@
-.App {
+h1{
+  font-size: 35px;
+  margin-top: 25px;
+}
+
+h5{
+  height: 20px;
+  margin: 10px 0px 30px;
+}
+
+input{
+  font-size: 20px;
+}
+
+ul{
+  padding-left: 40px;
+}
+
+li{
+  list-style-type: none;
+  margin: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.weight{
+  font-weight: 700;
+}
+
+.align{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.spaceTop{
+  margin-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.space{
+  margin-top: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.setDisplay{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.navbar{
+  background-color: #282c34;
+  padding: 8px 0px;
+}
+
+.navbar a:active{
+  transform: translate(3px, 2px);
+  box-shadow:0px 0px ;
+}
+
+.navbar a{
+  color: black;
+  font-size: 26px;
+  border-radius: 18px;
+  padding: 2px 12px;
+  background-color: white;
+  box-shadow: 3px 4px gray;
+  margin: 3px 15px;
+}
+
+.dropdown-menu.show{
+  background: rgba(40, 44, 52,0.5);;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin: 10px 0px 0px 15px;
+}
+
+.borderColor{
+  border: 2px solid rgb(155, 155, 155);
+}
+
+.login{
+  width: 300px;
+  height: 200px;
+}
+
+.login input{
+  font-size: 22px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.whiteFont{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.app{
+  background-color: #282c34;
+  font-size: 18px;
+  margin: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textSize{
+  font-size: 15px;
+}
+
+.textConf{
+  font-size: 12px;
+  color: black;
+}
+
+.links{
+  display: flex;
+  justify-content: space-around;
+  margin: 0px;
+}
+
+.prices{
+  font-size: 15px;
+}
+
+.item{
+  display: flex;
+  flex-direction: row;
+}
+
+.itemImg{
+  width: 150px;
+}
+
+.sku{
+  font-size: 12px;
+}
+
+.configBox{
+  align-items: center;
+  border-radius: 50px;
+}
+
+.text{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+select{
+  background-color: white;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+label{
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.colorSubLable{
+  color: #808692;
+  font-size: 14px;
+}
+
+.title{
+  padding: 0px 100px;
+  border-bottom: 1px solid;
+}
+
+.display{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container{
+  margin: 15px 15px;
+  margin-right: 10px;
+}
+
+.field{
+  margin-right: 8px;
+}
+
+#submit{
+  background-color:#18bd5b;
+  border-color:#18bd5b;
+  font-size: 18px;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+.infoItem{
+  margin-left: 25px;
+}
+
+.description{
+  width: 360px;
+  margin: 15px 0px;
+}
+
+.columDisplay{
+  display: flex;
+  flex-direction: column;
+}
+
+#buy{
+  padding: 2px 5px;
+  background-color: #eb4343;
+  border-radius: 5px;
+}
+
+.warning{
+  color: red;
+  font-size: 8px;
+}
+
+.seting{
+  padding-left: 0px;
+}
+
+.campoImg{
+  width: 560px;
+}
+
+.containerText{
+  margin-top: 40px;
+  margin-left: 15px;
+  color: black;
+}
+
+#textArea{
+  height: 250px;
+  width: 450px;
+}
+
+#delete{
+  background-color: #eb4343;
+}
+
+#editado, #borrado{
+  font-size: 12px;
+  border-radius: 5px;
+  margin-top: 12;
+  padding: 0px 4px;
+  background-color: greenyellow;
+  color: black;
 }
